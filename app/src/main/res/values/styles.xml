@@ -1,5 +1,31 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+    <!-- Splash Screen Theme -->
+    <style name="Theme.SplashScreen" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="windowSplashScreenBackground">@color/splash_screen_background</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splash_screen_icon</item>
+        <item name="postSplashScreenTheme">@style/Theme.MaterialComponents.DayNight.NoActionBar</item>
+    </style>
+
+    <!-- Colors -->
+    <color name="splash_screen_background">#FFFFFF</color>
+    <color name="colorAccent">#6200EE</color>
+
+    <!-- Text Appearance for AutoSize -->
+    <declare-styleable name="TextAppearance">
+        <attr name="autoSizeTextType" format="dimension"/>
+        <attr name="autoSizeMinTextSize" format="dimension"/>
+        <attr name="autoSizeMaxTextSize" format="dimension"/>
+        <attr name="autoSizeStepGranularity" format="dimension"/>
+    </declare-styleable>
+
+    <!-- Post Splash Screen Theme -->
+    <style name="postSplashScreenTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize as per your app's requirements -->
+    </style>
+
+    <!-- Optional: Define the splash screen icon drawable -->
+    <drawable name="splash_screen_icon">@drawable/linphone_logo</drawable>
     <style name="AppSplashScreenTheme" parent="Theme.SplashScreen">
         <item name="windowSplashScreenBackground">@color/dark_grey_color</item>
         <item name="windowSplashScreenAnimatedIcon">@drawable/vector_linphone_logo</item>

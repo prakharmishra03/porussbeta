@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <declare-styleable name="LinphoneAppTheme">
+
         <attr name="accentColor" format="color"/>
         <attr name="colorPrimary" format="color"/>
         <attr name="accentColorLight30" format="color"/>
@@ -48,7 +49,38 @@
         <attr name="voipFormFieldBackgroundColor" format="color" />
         <attr name="voipFormDisabledFieldBackgroundColor" format="color" />
         <attr name="voipCancelledMeetingBackgroundColor" format="color" />
+
+        <!-- Added missing attributes based on error -->
+        <attr name="windowSplashScreenBackground" format="color"/>
+        <attr name="windowSplashScreenAnimatedIcon" format="reference"/>
+        <attr name="postSplashScreenTheme" format="reference"/>
+        <attr name="colorAccent" format="color"/>
+        <attr name="autoSizeTextType" format="enum">
+            <enum name="none" value="0"/>
+            <enum name="uniform" value="1"/>
+            <enum name="granular" value="2"/>
+        </attr>
+        <attr name="autoSizeMinTextSize" format="dimension"/>
+        <attr name="autoSizeMaxTextSize" format="dimension"/>
+        <attr name="autoSizeStepGranularity" format="dimension"/>
     </declare-styleable>
+
+    <declare-styleable name="CustomThemeAttributes">
+        <!-- Splash Screen Attributes -->
+        <attr name="windowSplashScreenBackground" format="reference"/>
+        <attr name="windowSplashScreenAnimatedIcon" format="reference"/>
+        <attr name="postSplashScreenTheme" format="reference"/>
+
+        <!-- Material Components Attributes -->
+        <attr name="colorAccent" format="color"/>
+
+        <!-- AutoSize Text Attributes -->
+        <attr name="autoSizeTextType" format="dimension"/>
+        <attr name="autoSizeMinTextSize" format="dimension"/>
+        <attr name="autoSizeMaxTextSize" format="dimension"/>
+        <attr name="autoSizeStepGranularity" format="dimension"/>
+    </declare-styleable>
+
 
     <declare-styleable name="Settings">
         <attr name="title" format="string" />
