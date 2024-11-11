@@ -47,7 +47,11 @@ jobs:
 
       # Build the debug APK
       - name: Build Linphone Debug APK
-        run: ./gradlew wrapper --gradle-version 7.4
+        run: ./gradlew assembleDebug  # Use assembleDebug to generate the APK
+
+      # List files in the output directory to confirm APK is generated
+      - name: List files in output directory
+        run: ls -R app/build/outputs/apk/
 
       # Upload the built APK as an artifact
       - name: Upload APK
