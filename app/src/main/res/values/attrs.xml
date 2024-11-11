@@ -55,14 +55,6 @@
         <attr name="windowSplashScreenAnimatedIcon" format="reference"/>
         <attr name="postSplashScreenTheme" format="reference"/>
         <attr name="colorAccent" format="color"/>
-        <attr name="autoSizeTextType" format="enum">
-            <enum name="none" value="0"/>
-            <enum name="uniform" value="1"/>
-            <enum name="granular" value="2"/>
-        </attr>
-        <attr name="autoSizeMinTextSize" format="dimension"/>
-        <attr name="autoSizeMaxTextSize" format="dimension"/>
-        <attr name="autoSizeStepGranularity" format="dimension"/>
     </declare-styleable>
 
 
