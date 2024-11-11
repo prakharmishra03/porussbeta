@@ -21,13 +21,13 @@ jobs:
         uses: actions/setup-java@v3
         with:
           distribution: 'zulu'
-          java-version: '11'
+          java-version: '17'
 
-      # Set up Gradle 7.4
+      ## Set up Gradle version 7.4 (or any version you need)
       - name: Set up Gradle 7.4
         uses: gradle/gradle-build-action@v2
         with:
-          gradle-version: '7.4'
+          gradle-version: '7.4'  # specify your desired Gradle version here
 
       # Grant execute permissions for gradlew
       - name: Grant execute permission for gradlew
