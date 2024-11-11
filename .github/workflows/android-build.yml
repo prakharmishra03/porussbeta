@@ -49,15 +49,9 @@ jobs:
       - name: Build Linphone Debug APK
         run: ./gradlew wrapper --gradle-version 7.4
 
-      # Build the APK (adding Gradle build command)
-      - name: Build APK
-        run: ./gradlew assembleDebug
-
       # Upload the built APK as an artifact
       - name: Upload APK
         uses: actions/upload-artifact@v3
         with:
           name: linphone-debug-apk
           path: app/build/outputs/apk/debug/*.apk
-          if-no-files-found: warn
-          include-hidden-files: false
