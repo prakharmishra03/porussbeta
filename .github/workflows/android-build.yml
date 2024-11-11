@@ -55,7 +55,7 @@ jobs:
         with:
           name: linphone-debug-apk
           path: app/build/outputs/apk/debug/*.apk
-name: Linphone Android Build
+name: LinphoneAndroidBuild
 
 on:
   push:
