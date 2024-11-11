@@ -47,7 +47,7 @@ jobs:
 
       # Build the debug APK
       - name: Build Linphone Debug APK
-        run: ./gradlew assembleDebug --gradle-version 7.4
+        run: ./gradlew assembleDebug 
 
       - name: List files in output directory
         run: ls -R app/build/outputs/apk/
