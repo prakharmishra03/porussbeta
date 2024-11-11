@@ -21,3 +21,17 @@ buildscript {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+// Load signing properties from keystore.properties
+def keystorePropertiesFile = rootProject.file("keystore.properties")
+if (keystorePropertiesFile.exists()) {
+    def keystoreProperties = new Properties()
+    keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+
+    ext {
+        STORE_FILE = keystoreProperties['storeFile']
+        STORE_PASSWORD = keystoreProperties['storePassword']
+        KEY_ALIAS = keystoreProperties['keyAlias']
+        KEY_PASSWORD = keystoreProperties['keyPassword']
+    }
+}

@@ -85,8 +85,8 @@ android {
 
     compileSdkVersion 34
     defaultConfig {
-        minSdkVersion 23
-        targetSdkVersion 34
+        minSdkVersion 21
+        targetSdkVersion 33
         versionCode appVersionCode
         versionName "${project.version}"
         applicationId packageName
