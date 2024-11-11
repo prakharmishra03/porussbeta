@@ -65,20 +65,7 @@
         <attr name="autoSizeStepGranularity" format="dimension"/>
     </declare-styleable>
 
-    <declare-styleable name="CustomThemeAttributes">
-        <!-- Splash Screen Attributes -->
-        <attr name="windowSplashScreenAnimatedIcon" format="reference"/>
-        <attr name="postSplashScreenTheme" format="reference"/>
 
-        <!-- Material Components Attributes -->
-        <attr name="colorAccent" format="color"/>
-
-        <!-- AutoSize Text Attributes -->
-        <attr name="autoSizeTextType" format="dimension"/>
-        <attr name="autoSizeMinTextSize" format="dimension"/>
-        <attr name="autoSizeMaxTextSize" format="dimension"/>
-        <attr name="autoSizeStepGranularity" format="dimension"/>
-    </declare-styleable>
 
 
     <declare-styleable name="Settings">
