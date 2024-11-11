@@ -67,7 +67,6 @@
 
     <declare-styleable name="CustomThemeAttributes">
         <!-- Splash Screen Attributes -->
-        <attr name="windowSplashScreenBackground" format="reference"/>
         <attr name="windowSplashScreenAnimatedIcon" format="reference"/>
         <attr name="postSplashScreenTheme" format="reference"/>
 
