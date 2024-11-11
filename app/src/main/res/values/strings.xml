@@ -1,349 +1,349 @@
 <?xml version='1.0' encoding='UTF-8'?>
 
-    <!DOCTYPE resources [
-    <!ENTITY appName "PORUSS">
-    ]>
+<!DOCTYPE resources [
+    <!ENTITY appName "Linphone">
+]>
 
-    <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
-        <string name="app_name" translatable="false">&appName;</string>
-        <string name="app_name_debug" translatable="false">&appName; (debug)</string>
-        <string name="user_agent_app_name" translatable="false">&appName;Android</string>
-        <string name="service_name">&appName; Service</string>
-        <string name="service_auto_start_description">&appName; has been started automatically</string>
-        <string name="service_description">This is required to receive calls while in background</string>
-        <string name="sync_account_name">&appName; contacts</string>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="app_name" translatable="false">&appName;</string>
+    <string name="app_name_debug" translatable="false">&appName; (debug)</string>
+    <string name="user_agent_app_name" translatable="false">&appName;Android</string>
+    <string name="service_name">&appName; Service</string>
+    <string name="service_auto_start_description">&appName; has been started automatically</string>
+    <string name="service_description">This is required to receive calls while in background</string>
+    <string name="sync_account_name">&appName; contacts</string>
 
-        <!-- About screen -->
-        <string name="about_link" translatable="false">porussapp</string>
-        <string name="about_privacy_policy_link" translatable="false">porussapp@gmail.com</string>
-        <string name="about_license_link" translatable="false">porussapp@gmail.com</string>
-        <string name="about_version" translatable="false">&appName; Android %s</string>
-        <string name="about_liblinphone_sdk_version" translatable="false">&appName; SDK %s</string>
-        <string name="about_privacy_policy">Visit our privacy policy</string>
-        <string name="about_text" translatable="false">Poruss : Indian Army PQC VoIP Soln</string>
-        <string name="about_weblate_link" translatable="false">porussapp@gmail.com</string>
-        <string name="about_weblate_translation">&appName;</string>
+    <!-- About screen -->
+    <string name="about_link" translatable="false">https://linphone.org</string>
+    <string name="about_privacy_policy_link" translatable="false">https://www.linphone.org/privacy-policy</string>
+    <string name="about_license_link" translatable="false">https://www.gnu.org/licenses/gpl-3.0.html</string>
+    <string name="about_version" translatable="false">&appName; Android %s</string>
+    <string name="about_liblinphone_sdk_version" translatable="false">&appName; SDK %s</string>
+    <string name="about_privacy_policy">Visit our privacy policy</string>
+    <string name="about_text" translatable="false">GNU General Public License v3.0\n © 2010–2023 Belledonne Communications</string>
+    <string name="about_weblate_link" translatable="false">https://weblate.linphone.org/projects/linphone/</string>
+    <string name="about_weblate_translation">Help us translate &appName;</string>
 
-        <!-- Logs -->
-        <string name="logs_upload_failure">Failed to upload logs!</string>
-        <string name="logs_reset_complete">Logs have been cleared</string>
-        <string name="logs_url_copied_to_clipboard">Logs URL copied into clipboard</string>
-        <string name="about_bugreport_email" translatable="false">porussapp@gmail.com</string>
+    <!-- Logs -->
+    <string name="logs_upload_failure">Failed to upload logs!</string>
+    <string name="logs_reset_complete">Logs have been cleared</string>
+    <string name="logs_url_copied_to_clipboard">Logs URL copied into clipboard</string>
+    <string name="about_bugreport_email" translatable="false">linphone-android@belledonne-communications.com</string>
 
-        <!-- Common -->
-        <string name="phone_number">Phone number</string>
-        <string name="phone_numbers">Phone numbers</string>
-        <string name="select_your_country">Select your country</string>
-        <string name="international_prefix">Prefix</string>
-        <string name="assistant_choose_country">Choose a country</string>
-        <string name="assistant_choose_country_title">Country name or prefix</string>
-        <string name="username">Username</string>
-        <string name="password">Password</string>
-        <string name="email">Email</string>
-        <string name="domain">Domain</string>
-        <string name="sip_address">SIP address</string>
-        <string name="sip_addresses">SIP addresses</string>
-        <string name="cancel">Cancel</string>
-        <plurals name="days">
-            <item quantity="one">%d day</item>
-            <item quantity="other">%d days</item>
-        </plurals>
-        <string name="share_uploaded_logs_link">Share logs link using…</string>
-        <string name="yes">Yes</string>
-        <string name="no">No</string>
+    <!-- Common -->
+    <string name="phone_number">Phone number</string>
+    <string name="phone_numbers">Phone numbers</string>
+    <string name="select_your_country">Select your country</string>
+    <string name="international_prefix">Prefix</string>
+    <string name="assistant_choose_country">Choose a country</string>
+    <string name="assistant_choose_country_title">Country name or prefix</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="domain">Domain</string>
+    <string name="sip_address">SIP address</string>
+    <string name="sip_addresses">SIP addresses</string>
+    <string name="cancel">Cancel</string>
+    <plurals name="days">
+        <item quantity="one">%d day</item>
+        <item quantity="other">%d days</item>
+    </plurals>
+    <string name="share_uploaded_logs_link">Share logs link using…</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
 
-        <!-- Errors -->
-        <string name="error_unexpected">Unexpected error…</string>
+    <!-- Errors -->
+    <string name="error_unexpected">Unexpected error…</string>
 
-        <!-- Date & Time -->
-        <string name="today">Today</string>
-        <string name="yesterday">Yesterday</string>
+    <!-- Date & Time -->
+    <string name="today">Today</string>
+    <string name="yesterday">Yesterday</string>
 
-        <!-- Technical terms -->
-        <string name="transport">Transport</string>
-        <string name="transport_udp">UDP</string>
-        <string name="transport_tcp">TCP</string>
-        <string name="transport_tls">TLS</string>
+    <!-- Technical terms -->
+    <string name="transport">Transport</string>
+    <string name="transport_udp">UDP</string>
+    <string name="transport_tcp">TCP</string>
+    <string name="transport_tls">TLS</string>
 
-        <!-- Launch screen -->
-        <string name="app_description">the <i>libre</i> SIP client</string>
+    <!-- Launch screen -->
+    <string name="app_description">the <i>libre</i> SIP client</string>
 
-        <!-- Status fragment -->
-        <string name="status_connected">Connected</string>
-        <string name="status_not_connected">Not connected</string>
-        <string name="status_in_progress">Connection in progress</string>
-        <string name="status_error">Connection failed</string>
+    <!-- Status fragment -->
+    <string name="status_connected">Connected</string>
+    <string name="status_not_connected">Not connected</string>
+    <string name="status_in_progress">Connection in progress</string>
+    <string name="status_error">Connection failed</string>
 
-        <!-- Side menu -->
-        <string name="no_account_configured">No account configured</string>
-        <string name="about">About</string>
-        <string name="assistant">Assistant</string>
-        <string name="recordings">Recordings</string>
-        <string name="settings">Settings</string>
-        <string name="quit">Quit</string>
+    <!-- Side menu -->
+    <string name="no_account_configured">No account configured</string>
+    <string name="about">About</string>
+    <string name="assistant">Assistant</string>
+    <string name="recordings">Recordings</string>
+    <string name="settings">Settings</string>
+    <string name="quit">Quit</string>
 
-        <!-- History -->
-        <string name="history_calls_list">Calls</string>
-        <string name="no_call_history">No call in your history</string>
-        <string name="no_missed_call_history">No missed call in your history</string>
-        <string name="no_conference_call_history">No meeting call in your history</string>
-        <string name="history_delete_one_dialog">Do you want to delete this record?</string>
-        <string name="history_delete_many_dialog">Do you want to delete these records?</string>
-        <plurals name="history_delete_dialog" translatable="false">
-            <item quantity="one">@string/history_delete_one_dialog</item>
-            <item quantity="other">@string/history_delete_many_dialog</item>
-        </plurals>
+    <!-- History -->
+    <string name="history_calls_list">Calls</string>
+    <string name="no_call_history">No call in your history</string>
+    <string name="no_missed_call_history">No missed call in your history</string>
+    <string name="no_conference_call_history">No meeting call in your history</string>
+    <string name="history_delete_one_dialog">Do you want to delete this record?</string>
+    <string name="history_delete_many_dialog">Do you want to delete these records?</string>
+    <plurals name="history_delete_dialog" translatable="false">
+        <item quantity="one">@string/history_delete_one_dialog</item>
+        <item quantity="other">@string/history_delete_many_dialog</item>
+    </plurals>
 
-        <!-- Contacts -->
-        <string name="contact_invite_friend">Invite</string>
-        <string name="no_contact">No contact in your address book.</string>
-        <string name="no_sip_contact">No SIP contact in your address book.</string>
-        <string name="contact_filter_hint">Search contacts</string>
-        <string name="contact_send_sms_invite_text">Contact me on  &appName;</string>
-        <string name="contact_send_sms_invite_download_link" translatable="false">https://linphone.org/download</string>
-        <string name="contact_last_name">Last name</string>
-        <string name="contact_first_name">First name</string>
-        <string name="contact_organization">Organization</string>
-        <string name="contact_choose_existing_or_new_to_add_number">Select a contact or create a new one</string>
-        <string name="contact_editor_write_permission_denied">Write Contacts permission denied, can\'t edit contact</string>
-        <string name="contact_delete_one_dialog">Do you want to delete this contact?\nIt will also be removed from your device addressbook</string>
-        <string name="contact_delete_many_dialog">Are you sure you want to delete these contacts?\nThey will also be removed from your device addressbook</string>
-        <plurals name="contact_delete_dialog" translatable="false">
-            <item quantity="one">@string/contact_delete_one_dialog</item>
-            <item quantity="other">@string/contact_delete_many_dialog</item>
-        </plurals>
-        <string name="contact_new_choose_sync_account">Choose where to save the contact</string>
-        <string name="contact_local_sync_account">Store locally</string>
-        <string name="contact_cant_be_deleted">This contact can\'t be deleted</string>
-        <string name="contacts_ldap_query_more_results_available">More results are available, refine your search</string>
-        <string name="contacts_new_contact_wont_be_visible_warning_dialog">You are about to create a new contact without a SIP URI nor a phone number, thus it won\'t be visible in &appName;.\n\nDo you want to create it anyway?</string>
+    <!-- Contacts -->
+    <string name="contact_invite_friend">Invite</string>
+    <string name="no_contact">No contact in your address book.</string>
+    <string name="no_sip_contact">No SIP contact in your address book.</string>
+    <string name="contact_filter_hint">Search contacts</string>
+    <string name="contact_send_sms_invite_text">Hello, join me on &appName;! You can download it for free at %s</string>
+    <string name="contact_send_sms_invite_download_link" translatable="false">https://linphone.org/download</string>
+    <string name="contact_last_name">Last name</string>
+    <string name="contact_first_name">First name</string>
+    <string name="contact_organization">Organization</string>
+    <string name="contact_choose_existing_or_new_to_add_number">Select a contact or create a new one</string>
+    <string name="contact_editor_write_permission_denied">Write Contacts permission denied, can\'t edit contact</string>
+    <string name="contact_delete_one_dialog">Do you want to delete this contact?\nIt will also be removed from your device addressbook</string>
+    <string name="contact_delete_many_dialog">Are you sure you want to delete these contacts?\nThey will also be removed from your device addressbook</string>
+    <plurals name="contact_delete_dialog" translatable="false">
+        <item quantity="one">@string/contact_delete_one_dialog</item>
+        <item quantity="other">@string/contact_delete_many_dialog</item>
+    </plurals>
+    <string name="contact_new_choose_sync_account">Choose where to save the contact</string>
+    <string name="contact_local_sync_account">Store locally</string>
+    <string name="contact_cant_be_deleted">This contact can\'t be deleted</string>
+    <string name="contacts_ldap_query_more_results_available">More results are available, refine your search</string>
+    <string name="contacts_new_contact_wont_be_visible_warning_dialog">You are about to create a new contact without a SIP URI nor a phone number, thus it won\'t be visible in &appName;.\n\nDo you want to create it anyway?</string>
 
-        <!-- Dialer -->
-        <string name="dialer_address_bar_hint">Enter a number or an address</string>
-        <string name="debug_popup_title">Debug</string>
-        <string name="debug_popup_enable_logs">Enable logs</string>
-        <string name="debug_popup_disable_logs">Disable logs</string>
-        <string name="debug_popup_send_logs">Send logs</string>
-        <string name="debug_popup_show_config_file">View config file</string>
-        <string-array name="popup_send_log" translatable="false">
-            <item>@string/debug_popup_disable_logs</item>
-            <item>@string/debug_popup_send_logs</item>
-            <item>@string/debug_popup_show_config_file</item>
-            <item>@string/cancel</item>
-        </string-array>
-        <string-array name="popup_enable_log" translatable="false">
-            <item>@string/debug_popup_enable_logs</item>
-            <item>@string/debug_popup_show_config_file</item>
-            <item>@string/cancel</item>
-        </string-array>
-        <string name="dialer_transfer_succeded">Call is being transferred</string>
-        <string name="dialer_transfer_failed">Can\'t transfer call</string>
+    <!-- Dialer -->
+    <string name="dialer_address_bar_hint">Enter a number or an address</string>
+    <string name="debug_popup_title">Debug</string>
+    <string name="debug_popup_enable_logs">Enable logs</string>
+    <string name="debug_popup_disable_logs">Disable logs</string>
+    <string name="debug_popup_send_logs">Send logs</string>
+    <string name="debug_popup_show_config_file">View config file</string>
+    <string-array name="popup_send_log" translatable="false">
+        <item>@string/debug_popup_disable_logs</item>
+        <item>@string/debug_popup_send_logs</item>
+        <item>@string/debug_popup_show_config_file</item>
+        <item>@string/cancel</item>
+    </string-array>
+    <string-array name="popup_enable_log" translatable="false">
+        <item>@string/debug_popup_enable_logs</item>
+        <item>@string/debug_popup_show_config_file</item>
+        <item>@string/cancel</item>
+    </string-array>
+    <string name="dialer_transfer_succeded">Call is being transferred</string>
+    <string name="dialer_transfer_failed">Can\'t transfer call</string>
 
-        <!-- Chat -->
-        <string name="no_chat_history">No conversations</string>
-        <string name="chat_room_last_message_sender_format">%s:</string>
-        <string name="chat_remote_is_composing">Remote is writing&#8230;</string>
-        <string name="chat_event_conference_created">You have joined the group</string>
-        <string name="chat_event_conference_destroyed">You have left the group</string>
-        <string name="chat_event_participant_added">%s has joined</string>
-        <string name="chat_event_participant_removed">%s has left</string>
-        <string name="chat_event_device_added">new device for %s</string>
-        <string name="chat_event_device_removed">device for %s removed</string>
-        <string name="chat_event_subject_changed">new subject: %s</string>
-        <string name="chat_event_admin_set">%s is admin</string>
-        <string name="chat_event_admin_unset">%s is no longer admin</string>
-        <string name="chat_security_event_lime_identity_key_changed">LIME identity key changed for %s</string>
-        <string name="chat_security_event_man_in_the_middle_detected">Man-in-the-middle attack detected for %s</string>
-        <string name="chat_security_event_security_level_downgraded">Security level decreased because of %s</string>
-        <string name="chat_security_event_participant_max_count_exceeded">Max participant count exceeded by %s</string>
-        <string name="chat_event_ephemeral_disabled">You disabled ephemeral messages</string>
-        <string name="chat_event_ephemeral_enabled">You enabled ephemeral messages: %s</string>
-        <string name="chat_event_ephemeral_lifetime_changed">Ephemeral messages expiry date: %s</string>
-        <string name="chat_message_download_file">Download</string>
-        <string name="chat_message_pick_file_dialog">Select source</string>
-        <string name="chat_room_devices_fragment_title">Conversation\'s devices</string>
-        <string name="chat_room_group_info_title">Info</string>
-        <string name="chat_room_group_info_participants">Participants</string>
-        <string name="chat_room_group_info_subject_hint">Name the group</string>
-        <string name="chat_room_group_info_admin">Admin</string>
-        <string name="chat_room_group_info_leave">Leave the group</string>
-        <string name="chat_room_group_info_leave_dialog_button">Leave</string>
-        <string name="chat_room_group_info_leave_dialog_message">Do you want to leave this conversation?</string>
-        <string name="chat_room_group_info_you_are_now_admin">You are now admin</string>
-        <string name="chat_room_group_info_you_are_no_longer_admin">You are no longer admin</string>
-        <string name="chat_message_imdn_info">Delivery status</string>
-        <string name="chat_message_imdn_displayed">Read</string>
-        <string name="chat_message_imdn_delivered">Delivered</string>
-        <string name="chat_message_imdn_undelivered">Undelivered</string>
-        <string name="chat_message_imdn_sent">Sent</string>
-        <string name="chat_message_forwarded">Forwarded</string>
-        <string name="chat_message_replied">Reply</string>
-        <string name="chat_message_context_menu_resend">Resend</string>
-        <string name="chat_message_context_menu_copy_text">Copy text</string>
-        <string name="chat_message_context_menu_forward">Forward</string>
-        <string name="chat_message_context_menu_reply">Reply</string>
-        <string name="chat_message_context_menu_imdn_info">Delivery status</string>
-        <string name="chat_message_context_menu_delete">Delete</string>
-        <string name="chat_message_context_menu_add_to_contacts">Add to contacts</string>
-        <string name="chat_message_forward_confirmation_dialog">Do you want to forward the message in this room?</string>
-        <string name="chat_room_dummy_subject" translatable="false">dummy subject</string>
-        <string name="chat_room_choose_conversation_for_message_forward">Select or create a conversation to forward the message</string>
-        <string name="chat_room_choose_conversation_for_file_sharing">Select or create a conversation to share the file(s)</string>
-        <string name="chat_room_choose_conversation_for_text_sharing">Select or create a conversation to share the text</string>
-        <string name="chat_room_file_not_found">File not found</string>
-        <string name="chat_room_context_menu_group_info">Group info</string>
-        <string name="chat_room_context_menu_participants_devices">Conversation\'s devices</string>
-        <string name="chat_room_context_menu_go_to_contact">Go to contact</string>
-        <string name="chat_message_context_menu_ephemeral_messages">Ephemeral messages</string>
-        <string name="chat_message_context_menu_delete_messages">Delete messages</string>
-        <string name="chat_message_context_menu_turn_off_notifications">Disable notifications</string>
-        <string name="chat_message_context_menu_turn_on_notifications">Enable notifications</string>
-        <string name="chat_room_ephemeral_fragment_title">Ephemeral messages</string>
-        <string name="chat_room_ephemeral_messages_desc">This message will be deleted on both ends once it has been read and after the selected timeout.</string>
-        <string name="chat_room_ephemeral_message_disabled">Disabled</string>
-        <string name="chat_room_ephemeral_message_one_minute">1 minute</string>
-        <string name="chat_room_ephemeral_message_one_hour">1 hour</string>
-        <string name="chat_room_ephemeral_message_one_day">1 day</string>
-        <string name="chat_room_ephemeral_message_three_days">3 days</string>
-        <string name="chat_room_ephemeral_message_one_week">1 week</string>
-        <plurals name="chat_room_remote_composing">
-            <item quantity="one">%s is writing…</item>
-            <item quantity="other">%s are writing…</item>
-        </plurals>
-        <string name="chat_room_creation_failed_snack">Chat room creation failed</string>
-        <string name="chat_room_removal_failed_snack">Chat room removal failed</string>
-        <string name="chat_room_delete_one_dialog">Are you sure you want to delete this conversation?</string>
-        <string name="chat_room_delete_many_dialog">Are you sure you want to delete these conversations?</string>
-        <plurals name="chat_room_delete_dialog" translatable="false">
-            <item quantity="one">@string/chat_room_delete_one_dialog</item>
-            <item quantity="other">@string/chat_room_delete_many_dialog</item>
-        </plurals>
-        <string name="chat_message_notification_hidden_content">&lt;Redacted&gt;</string>
-        <string name="chat_message_no_app_found_to_handle_file_mime_type">No app available for this kind of file</string>
-        <string name="chat_bubble_cant_open_enrypted_file">Can\'t open encrypted file in chat bubble</string>
-        <string name="chat_message_cant_open_file_in_app_dialog_title">It seems we can\'t display the file.</string>
-        <string name="chat_message_cant_open_file_in_app_dialog_message">Would you like to open it as text or export it (unencrypted) to a third party app if available?</string>
-        <string name="chat_message_cant_open_file_in_app_dialog_export_button">Export</string>
-        <string name="chat_message_cant_open_file_in_app_dialog_open_as_text_button">Open as text</string>
-        <string name="chat_room_sending_reply_hint">Reply</string>
-        <string name="chat_room_sending_message_hint">Message</string>
-        <string name="chat_message_voice_recording_hold_to_record">Hold button to record voice message</string>
-        <string name="chat_message_voice_recording_playback_low_volume">Your media volume is low, you may want to increase it</string>
-        <plurals name="chat_room_unread_messages_event">
-            <item quantity="one">%1$d unread message</item>
-            <item quantity="other">%1$d unread messages</item>
-        </plurals>
-        <string name="chat_message_removal_info">Message will be deleted</string>
-        <string name="chat_message_abort_removal">Abort</string>
-        <string name="chat_message_download_already_in_progress">Please wait for first download to finish before starting a new one</string>
-        <string name="chat_message_voice_recording_received_notification">You have received a voice message</string>
-        <string name="chat_message_voice_recording_notification_short_desc">voice message</string>
-        <string name="chat_message_voice_recording">Voice message</string>
-        <string name="chat_room_presence_online">Online</string>
-        <string name="chat_room_presence_last_seen_online_today">Online today at</string>
-        <string name="chat_room_presence_last_seen_online_yesterday">Online yesterday at</string>
-        <string name="chat_room_presence_last_seen_online">Online on</string>
-        <string name="chat_room_presence_away">Away</string>
-        <string name="chat_room_presence_do_not_disturb">Do not disturb</string>
+    <!-- Chat -->
+    <string name="no_chat_history">No conversations</string>
+    <string name="chat_room_last_message_sender_format">%s:</string>
+    <string name="chat_remote_is_composing">Remote is writing&#8230;</string>
+    <string name="chat_event_conference_created">You have joined the group</string>
+    <string name="chat_event_conference_destroyed">You have left the group</string>
+    <string name="chat_event_participant_added">%s has joined</string>
+    <string name="chat_event_participant_removed">%s has left</string>
+    <string name="chat_event_device_added">new device for %s</string>
+    <string name="chat_event_device_removed">device for %s removed</string>
+    <string name="chat_event_subject_changed">new subject: %s</string>
+    <string name="chat_event_admin_set">%s is admin</string>
+    <string name="chat_event_admin_unset">%s is no longer admin</string>
+    <string name="chat_security_event_lime_identity_key_changed">LIME identity key changed for %s</string>
+    <string name="chat_security_event_man_in_the_middle_detected">Man-in-the-middle attack detected for %s</string>
+    <string name="chat_security_event_security_level_downgraded">Security level decreased because of %s</string>
+    <string name="chat_security_event_participant_max_count_exceeded">Max participant count exceeded by %s</string>
+    <string name="chat_event_ephemeral_disabled">You disabled ephemeral messages</string>
+    <string name="chat_event_ephemeral_enabled">You enabled ephemeral messages: %s</string>
+    <string name="chat_event_ephemeral_lifetime_changed">Ephemeral messages expiry date: %s</string>
+    <string name="chat_message_download_file">Download</string>
+    <string name="chat_message_pick_file_dialog">Select source</string>
+    <string name="chat_room_devices_fragment_title">Conversation\'s devices</string>
+    <string name="chat_room_group_info_title">Info</string>
+    <string name="chat_room_group_info_participants">Participants</string>
+    <string name="chat_room_group_info_subject_hint">Name the group</string>
+    <string name="chat_room_group_info_admin">Admin</string>
+    <string name="chat_room_group_info_leave">Leave the group</string>
+    <string name="chat_room_group_info_leave_dialog_button">Leave</string>
+    <string name="chat_room_group_info_leave_dialog_message">Do you want to leave this conversation?</string>
+    <string name="chat_room_group_info_you_are_now_admin">You are now admin</string>
+    <string name="chat_room_group_info_you_are_no_longer_admin">You are no longer admin</string>
+    <string name="chat_message_imdn_info">Delivery status</string>
+    <string name="chat_message_imdn_displayed">Read</string>
+    <string name="chat_message_imdn_delivered">Delivered</string>
+    <string name="chat_message_imdn_undelivered">Undelivered</string>
+    <string name="chat_message_imdn_sent">Sent</string>
+    <string name="chat_message_forwarded">Forwarded</string>
+    <string name="chat_message_replied">Reply</string>
+    <string name="chat_message_context_menu_resend">Resend</string>
+    <string name="chat_message_context_menu_copy_text">Copy text</string>
+    <string name="chat_message_context_menu_forward">Forward</string>
+    <string name="chat_message_context_menu_reply">Reply</string>
+    <string name="chat_message_context_menu_imdn_info">Delivery status</string>
+    <string name="chat_message_context_menu_delete">Delete</string>
+    <string name="chat_message_context_menu_add_to_contacts">Add to contacts</string>
+    <string name="chat_message_forward_confirmation_dialog">Do you want to forward the message in this room?</string>
+    <string name="chat_room_dummy_subject" translatable="false">dummy subject</string>
+    <string name="chat_room_choose_conversation_for_message_forward">Select or create a conversation to forward the message</string>
+    <string name="chat_room_choose_conversation_for_file_sharing">Select or create a conversation to share the file(s)</string>
+    <string name="chat_room_choose_conversation_for_text_sharing">Select or create a conversation to share the text</string>
+    <string name="chat_room_file_not_found">File not found</string>
+    <string name="chat_room_context_menu_group_info">Group info</string>
+    <string name="chat_room_context_menu_participants_devices">Conversation\'s devices</string>
+    <string name="chat_room_context_menu_go_to_contact">Go to contact</string>
+    <string name="chat_message_context_menu_ephemeral_messages">Ephemeral messages</string>
+    <string name="chat_message_context_menu_delete_messages">Delete messages</string>
+    <string name="chat_message_context_menu_turn_off_notifications">Disable notifications</string>
+    <string name="chat_message_context_menu_turn_on_notifications">Enable notifications</string>
+    <string name="chat_room_ephemeral_fragment_title">Ephemeral messages</string>
+    <string name="chat_room_ephemeral_messages_desc">This message will be deleted on both ends once it has been read and after the selected timeout.</string>
+    <string name="chat_room_ephemeral_message_disabled">Disabled</string>
+    <string name="chat_room_ephemeral_message_one_minute">1 minute</string>
+    <string name="chat_room_ephemeral_message_one_hour">1 hour</string>
+    <string name="chat_room_ephemeral_message_one_day">1 day</string>
+    <string name="chat_room_ephemeral_message_three_days">3 days</string>
+    <string name="chat_room_ephemeral_message_one_week">1 week</string>
+    <plurals name="chat_room_remote_composing">
+        <item quantity="one">%s is writing…</item>
+        <item quantity="other">%s are writing…</item>
+    </plurals>
+    <string name="chat_room_creation_failed_snack">Chat room creation failed</string>
+    <string name="chat_room_removal_failed_snack">Chat room removal failed</string>
+    <string name="chat_room_delete_one_dialog">Are you sure you want to delete this conversation?</string>
+    <string name="chat_room_delete_many_dialog">Are you sure you want to delete these conversations?</string>
+    <plurals name="chat_room_delete_dialog" translatable="false">
+        <item quantity="one">@string/chat_room_delete_one_dialog</item>
+        <item quantity="other">@string/chat_room_delete_many_dialog</item>
+    </plurals>
+    <string name="chat_message_notification_hidden_content">&lt;Redacted&gt;</string>
+    <string name="chat_message_no_app_found_to_handle_file_mime_type">No app available for this kind of file</string>
+    <string name="chat_bubble_cant_open_enrypted_file">Can\'t open encrypted file in chat bubble</string>
+    <string name="chat_message_cant_open_file_in_app_dialog_title">It seems we can\'t display the file.</string>
+    <string name="chat_message_cant_open_file_in_app_dialog_message">Would you like to open it as text or export it (unencrypted) to a third party app if available?</string>
+    <string name="chat_message_cant_open_file_in_app_dialog_export_button">Export</string>
+    <string name="chat_message_cant_open_file_in_app_dialog_open_as_text_button">Open as text</string>
+    <string name="chat_room_sending_reply_hint">Reply</string>
+    <string name="chat_room_sending_message_hint">Message</string>
+    <string name="chat_message_voice_recording_hold_to_record">Hold button to record voice message</string>
+    <string name="chat_message_voice_recording_playback_low_volume">Your media volume is low, you may want to increase it</string>
+    <plurals name="chat_room_unread_messages_event">
+        <item quantity="one">%1$d unread message</item>
+        <item quantity="other">%1$d unread messages</item>
+    </plurals>
+    <string name="chat_message_removal_info">Message will be deleted</string>
+    <string name="chat_message_abort_removal">Abort</string>
+    <string name="chat_message_download_already_in_progress">Please wait for first download to finish before starting a new one</string>
+    <string name="chat_message_voice_recording_received_notification">You have received a voice message</string>
+    <string name="chat_message_voice_recording_notification_short_desc">voice message</string>
+    <string name="chat_message_voice_recording">Voice message</string>
+    <string name="chat_room_presence_online">Online</string>
+    <string name="chat_room_presence_last_seen_online_today">Online today at</string>
+    <string name="chat_room_presence_last_seen_online_yesterday">Online yesterday at</string>
+    <string name="chat_room_presence_last_seen_online">Online on</string>
+    <string name="chat_room_presence_away">Away</string>
+    <string name="chat_room_presence_do_not_disturb">Do not disturb</string>
 
-        <!-- Chat reactions -->
-        <string name="chat_message_reaction_received" formatted="false">msg recd</string>
-        <string name="emoji_love" translatable="false">❤️</string>
-        <string name="emoji_thumbs_up" translatable="false">👍</string>
-        <string name="emoji_laughing" translatable="false">😂</string>
-        <string name="emoji_surprised" translatable="false">😮</string>
-        <string name="emoji_tear" translatable="false">😢</string>
-        <plurals name="chat_message_reactions_count" translatable="false">
-            <item quantity="one">@string/chat_message_one_reaction</item>
-            <item quantity="other">@string/chat_message_many_reactions</item>
-        </plurals>
-        <string name="chat_message_one_reaction">%s reaction</string>
-        <string name="chat_message_many_reactions">%s reactions</string>
+    <!-- Chat reactions -->
+    <string name="chat_message_reaction_received">%s has reacted by %s to: %s</string>
+    <string name="emoji_love" translatable="false">❤️</string>
+    <string name="emoji_thumbs_up" translatable="false">👍</string>
+    <string name="emoji_laughing" translatable="false">😂</string>
+    <string name="emoji_surprised" translatable="false">😮</string>
+    <string name="emoji_tear" translatable="false">😢</string>
+    <plurals name="chat_message_reactions_count" translatable="false">
+        <item quantity="one">@string/chat_message_one_reaction</item>
+        <item quantity="other">@string/chat_message_many_reactions</item>
+    </plurals>
+    <string name="chat_message_one_reaction">%s reaction</string>
+    <string name="chat_message_many_reactions">%s reactions</string>
 
-        <!-- Recordings -->
-        <string name="recordings_empty_list">No recordings</string>
-        <string name="recordings_export">Export recording using…</string>
+    <!-- Recordings -->
+    <string name="recordings_empty_list">No recordings</string>
+    <string name="recordings_export">Export recording using…</string>
 
-        <!-- Conferencing -->
-        <string name="conference">Meeting</string>
-        <string name="conference_schedule_title">Schedule a meeting</string>
-        <string name="conference_group_call_title">Start a group call</string>
-        <string name="conference_schedule_later">Do you want to schedule a meeting for later?</string>
-        <string name="conference_schedule_mandatory_field">Mandatory</string>
-        <string name="conference_schedule_subject_title">Subject</string>
-        <string name="conference_schedule_subject_hint">Meeting subject</string>
-        <string name="conference_group_call_subject_hint">Group call subject</string>
-        <string name="conference_schedule_address_title">Meeting address</string>
-        <string name="conference_schedule_broadcast_address_title">Broadcast address</string>
-        <string name="conference_schedule_description_title">Add a description</string>
-        <string name="conference_schedule_description_hint">Description</string>
-        <string name="conference_schedule_date">Date</string>
-        <string name="conference_schedule_time">Time</string>
-        <string name="conference_schedule_duration">Duration</string>
-        <string name="conference_schedule_mode">Mode</string>
-        <string name="conference_schedule_mode_meeting">Meeting</string>
-        <string name="conference_schedule_mode_broadcast">Broadcast</string>
-        <string name="conference_schedule_timezone">Timezone</string>
-        <string name="conference_schedule_send_invite_chat">Send invite via &appName;</string>
-        <string name="conference_schedule_send_updated_invite_chat">Send update via &appName;</string>
-        <string name="conference_schedule_send_invite_email">Send invite via email</string>
-        <string name="conference_schedule_send_updated_invite_email">Send update via email</string>
-        <string name="conference_schedule_encryption">Would you like to encrypt the meeting?</string>
-        <string name="conference_schedule_send_invite_chat_summary">Invite will be sent out from my &appName; account</string>
-        <string name="conference_schedule_participants_list">Participants list</string>
-        <string name="conference_schedule_speakers_list">Speakers list</string>
-        <string name="conference_schedule_speakers_list_empty">Select at least one speaker</string>
-        <string name="conference_schedule_participants_list_empty">Select at least one participant</string>
-        <string name="conference_organizer">Organizer</string>
-        <string name="conference_schedule_summary">Meeting info</string>
-        <string name="conference_group_call_summary">Group call info</string>
-        <string name="conference_schedule_broadcast_summary">Broadcast info</string>
-        <string name="conference_schedule_start">Schedule meeting</string>
-        <string name="conference_schedule_edit">Edit meeting</string>
-        <string name="conference_broadcast_start">Schedule broadcast</string>
-        <string name="conference_broadcast_edit">Edit broadcast</string>
-        <string name="conference_group_call_create">Start group call</string>
-        <string name="conference_schedule_address_copied_to_clipboard">Meeting address copied into clipboard</string>
-        <string name="conference_schedule_info_not_sent_to_participant">Failed to send meeting info to a participant</string>
-        <string name="conference_paused_title">You are currently out of the meeting.</string>
-        <string name="conference_paused_subtitle">Click on play button to join it back.</string>
-        <string name="conference_default_title">Remote group call</string>
-        <string name="conference_local_title">Local group call</string>
-        <string name="conference_invite_title">Meeting invite:</string>
-        <string name="conference_broadcast_invite_title">Broadcast invite:</string>
-        <string name="conference_broadcast_invite_you_are_speaker">(you are a speaker)</string>
-        <string name="conference_update_title">Meeting has been updated:</string>
-        <string name="conference_cancel_title">Meeting has been cancelled:</string>
-        <string name="conference_description_title">Description</string>
-        <string name="conference_invite_join">Join</string>
-        <string name="conference_invite_participants_count" tools:ignore="PluralsCandidate">%d participants</string>
-        <string name="conference_display_mode_mosaic">Mosaic mode</string>
-        <string name="conference_display_mode_active_speaker">Active speaker mode</string>
-        <string name="conference_display_mode_audio_only">Audio only mode</string>
-        <string name="conference_waiting_room_start_call">Start</string>
-        <string name="conference_waiting_room_cancel_call">Cancel</string>
-        <string name="conference_waiting_room_video_disabled">Video is currently disabled</string>
-        <string name="conference_waiting_room_listener_broadcast">You aren\'t a speaker in this broadcast</string>
-        <string name="conference_scheduled">Meetings</string>
-        <string name="conference_layout_too_many_participants_for_mosaic">You can\'t change group call layout as there is too many participants</string>
-        <string name="conference_too_many_participants_for_mosaic_layout">There is too many participants for mosaic layout, switching to active speaker</string>
-        <string name="conference_participant_paused">(paused)</string>
-        <string name="conference_no_schedule">No scheduled meeting yet.</string>
-        <string name="conference_no_terminated_schedule">No terminated meeting yet.</string>
-        <string name="conference_schedule_organizer">Organizer:</string>
-        <string name="conference_go_to_chat">Meeting\'s chat room</string>
-        <string name="conference_creation_failed">Failed to create meeting</string>
-        <string name="conference_admin_set">%s is now admin</string>
-        <string name="conference_admin_unset">%s is no longer admin</string>
-        <string name="conference_schedule_info_created">Meeting has been scheduled</string>
-        <string name="conference_info_removed">Meeting info has been deleted</string>
-        <string name="conference_empty">You are currently alone in this group call</string>
-        <string name="conference_invitation_received_notification">You have been invited to a meeting</string>
-        <string name="conference_invitation_notification_short_desc">meeting invitation</string>
-        <string name="conference_invitation">Meeting invitation</string>
-        <string name="conference_low_bandwidth">Low bandwidth detected, disabling video</string>
-        <string name="conference_first_to_join">You\'re the first to join the group call</string>
-        <string name="conference_last_user">All other participants have left the group call</string>
+    <!-- Conferencing -->
+    <string name="conference">Meeting</string>
+    <string name="conference_schedule_title">Schedule a meeting</string>
+    <string name="conference_group_call_title">Start a group call</string>
+    <string name="conference_schedule_later">Do you want to schedule a meeting for later?</string>
+    <string name="conference_schedule_mandatory_field">Mandatory</string>
+    <string name="conference_schedule_subject_title">Subject</string>
+    <string name="conference_schedule_subject_hint">Meeting subject</string>
+    <string name="conference_group_call_subject_hint">Group call subject</string>
+    <string name="conference_schedule_address_title">Meeting address</string>
+    <string name="conference_schedule_broadcast_address_title">Broadcast address</string>
+    <string name="conference_schedule_description_title">Add a description</string>
+    <string name="conference_schedule_description_hint">Description</string>
+    <string name="conference_schedule_date">Date</string>
+    <string name="conference_schedule_time">Time</string>
+    <string name="conference_schedule_duration">Duration</string>
+    <string name="conference_schedule_mode">Mode</string>
+    <string name="conference_schedule_mode_meeting">Meeting</string>
+    <string name="conference_schedule_mode_broadcast">Broadcast</string>
+    <string name="conference_schedule_timezone">Timezone</string>
+    <string name="conference_schedule_send_invite_chat">Send invite via &appName;</string>
+    <string name="conference_schedule_send_updated_invite_chat">Send update via &appName;</string>
+    <string name="conference_schedule_send_invite_email">Send invite via email</string>
+    <string name="conference_schedule_send_updated_invite_email">Send update via email</string>
+    <string name="conference_schedule_encryption">Would you like to encrypt the meeting?</string>
+    <string name="conference_schedule_send_invite_chat_summary">Invite will be sent out from my &appName; account</string>
+    <string name="conference_schedule_participants_list">Participants list</string>
+    <string name="conference_schedule_speakers_list">Speakers list</string>
+    <string name="conference_schedule_speakers_list_empty">Select at least one speaker</string>
+    <string name="conference_schedule_participants_list_empty">Select at least one participant</string>
+    <string name="conference_organizer">Organizer</string>
+    <string name="conference_schedule_summary">Meeting info</string>
+    <string name="conference_group_call_summary">Group call info</string>
+    <string name="conference_schedule_broadcast_summary">Broadcast info</string>
+    <string name="conference_schedule_start">Schedule meeting</string>
+    <string name="conference_schedule_edit">Edit meeting</string>
+    <string name="conference_broadcast_start">Schedule broadcast</string>
+    <string name="conference_broadcast_edit">Edit broadcast</string>
+    <string name="conference_group_call_create">Start group call</string>
+    <string name="conference_schedule_address_copied_to_clipboard">Meeting address copied into clipboard</string>
+    <string name="conference_schedule_info_not_sent_to_participant">Failed to send meeting info to a participant</string>
+    <string name="conference_paused_title">You are currently out of the meeting.</string>
+    <string name="conference_paused_subtitle">Click on play button to join it back.</string>
+    <string name="conference_default_title">Remote group call</string>
+    <string name="conference_local_title">Local group call</string>
+    <string name="conference_invite_title">Meeting invite:</string>
+    <string name="conference_broadcast_invite_title">Broadcast invite:</string>
+    <string name="conference_broadcast_invite_you_are_speaker">(you are a speaker)</string>
+    <string name="conference_update_title">Meeting has been updated:</string>
+    <string name="conference_cancel_title">Meeting has been cancelled:</string>
+    <string name="conference_description_title">Description</string>
+    <string name="conference_invite_join">Join</string>
+    <string name="conference_invite_participants_count" tools:ignore="PluralsCandidate">%d participants</string>
+    <string name="conference_display_mode_mosaic">Mosaic mode</string>
+    <string name="conference_display_mode_active_speaker">Active speaker mode</string>
+    <string name="conference_display_mode_audio_only">Audio only mode</string>
+    <string name="conference_waiting_room_start_call">Start</string>
+    <string name="conference_waiting_room_cancel_call">Cancel</string>
+    <string name="conference_waiting_room_video_disabled">Video is currently disabled</string>
+    <string name="conference_waiting_room_listener_broadcast">You aren\'t a speaker in this broadcast</string>
+    <string name="conference_scheduled">Meetings</string>
+    <string name="conference_layout_too_many_participants_for_mosaic">You can\'t change group call layout as there is too many participants</string>
+    <string name="conference_too_many_participants_for_mosaic_layout">There is too many participants for mosaic layout, switching to active speaker</string>
+    <string name="conference_participant_paused">(paused)</string>
+    <string name="conference_no_schedule">No scheduled meeting yet.</string>
+    <string name="conference_no_terminated_schedule">No terminated meeting yet.</string>
+    <string name="conference_schedule_organizer">Organizer:</string>
+    <string name="conference_go_to_chat">Meeting\'s chat room</string>
+    <string name="conference_creation_failed">Failed to create meeting</string>
+    <string name="conference_admin_set">%s is now admin</string>
+    <string name="conference_admin_unset">%s is no longer admin</string>
+    <string name="conference_schedule_info_created">Meeting has been scheduled</string>
+    <string name="conference_info_removed">Meeting info has been deleted</string>
+    <string name="conference_empty">You are currently alone in this group call</string>
+    <string name="conference_invitation_received_notification">You have been invited to a meeting</string>
+    <string name="conference_invitation_notification_short_desc">meeting invitation</string>
+    <string name="conference_invitation">Meeting invitation</string>
+    <string name="conference_low_bandwidth">Low bandwidth detected, disabling video</string>
+    <string name="conference_first_to_join">You\'re the first to join the group call</string>
+    <string name="conference_last_user">All other participants have left the group call</string>
     <string name="conference_incoming_title">Incoming group call</string>
     <string name="conference_participants_title">Participants (%d)</string>
     <string name="conference_start_group_call_dialog_title">Group call</string>
@@ -439,13 +439,13 @@
     <string name="assistant_phone_number_info_title">What will my phone number be used for?</string>
     <string name="assistant_phone_number_link_info_content">\nYour friends will find you more easily if you link your account to your phone number\n\nYou will see in your address book who is using &appName; and your friends will know that they can reach you on &appName; as well.\n</string>
     <string name="assistant_phone_number_link_info_content_already_account">You can only use your phone number with one &appName; account.\n\nIf you had already linked your number to an other account but you prefer to use this one, simply link it now and your number will automatically be moved to this account.</string>
-    <string name="assistant_general_terms_link" translatable="false">porussapp@gmail.com</string>
-    <string name="assistant_privacy_policy_link" translatable="false">porussapp@gmail.com</string>
+    <string name="assistant_general_terms_link" translatable="false">https://www.linphone.org/general-terms</string>
+    <string name="assistant_privacy_policy_link" translatable="false">https://www.linphone.org/privacy-policy</string>
     <string name="assistant_general_terms">terms of use</string>
     <string name="assistant_privacy_policy">privacy policy</string>
-    <string name="assistant_read_and_agree_terms">I accept PORUSS\' %1$s and %2$s</string>
-    <string name="assistant_generic_account_warning">Welcome to PORUSS</string>
-    <string name="assistant_generic_account_warning_contact_link" translatable="false">porussapp@gmail.com</string>
+    <string name="assistant_read_and_agree_terms">I accept Belledonne Communications\' %1$s and %2$s</string>
+    <string name="assistant_generic_account_warning">Some features require a &appName; account, such as group messaging or ephemeral messaging.\n\nThese features are hidden when you register with a third party SIP account.\n\nTo enable it in a commercial project, please contact us.</string>
+    <string name="assistant_generic_account_warning_contact_link" translatable="false">https://www.linphone.org/contact</string>
     <string name="assistant_generic_account_warning_continue_button_text">I understand</string>
     <string name="assistant_alternative_way_create_account">To create an account using your email:</string>
     <string name="assistant_no_push_warning">Your device doesn\'t seem to be able to receive push notifications.\n\nAs we now require them for the account creation process, you won\'t be able to create an account inside the app, but you can create it on our website:</string>
@@ -460,7 +460,6 @@
     <string name="assistant_error_username_too_long">Username has too many characters</string>
     <string name="assistant_error_invalid_credentials">Account does not exist or password does not match</string>
     <string name="assistant_error_invalid_international_prefix">Wrong international prefix</string>
-    <string name="basicsipaccount">Please check the box and proceed with account creation.</string>
 
     <!-- Assistant login -->
     <string name="assistant_linphone_account">Use your &appName; account</string>

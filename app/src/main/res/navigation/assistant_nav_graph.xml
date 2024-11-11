@@ -13,6 +13,9 @@
             android:id="@+id/action_welcomeFragment_to_accountLoginFragment"
             app:destination="@id/accountLoginFragment" />
         <action
+            android:id="@+id/action_welcomeFragment_to_emailAccountCreationFragment"
+            app:destination="@id/emailAccountCreationFragment" />
+        <action
             android:id="@+id/action_welcomeFragment_to_phoneAccountCreationFragment"
             app:destination="@id/phoneAccountCreationFragment" />
         <action
@@ -66,6 +69,15 @@
         <action
             android:id="@+id/action_remoteProvisioningFragment_to_echoCancellerCalibrationFragment"
             app:destination="@id/echoCancellerCalibrationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/emailAccountCreationFragment"
+        android:name="org.linphone.activities.assistant.fragments.EmailAccountCreationFragment"
+        tools:layout="@layout/assistant_email_account_creation_fragment"
+        android:label="EmailAccountCreationFragment" >
+        <action
+            android:id="@+id/action_emailAccountCreationFragment_to_emailAccountValidationFragment"
+            app:destination="@id/emailAccountValidationFragment" />
     </fragment>
     <fragment
         android:id="@+id/emailAccountValidationFragment"

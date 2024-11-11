@@ -39,6 +39,18 @@
                 android:layout_marginTop="20dp"
                 android:text="@string/assistant_generic_account_warning"/>
 
+            <TextView
+                android:textColor="?attr/accentColor"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="web"
+                android:gravity="center"
+                android:paddingTop="20dp"
+                android:textColorLink="@color/primary_color"
+                android:text="@string/assistant_generic_account_warning_contact_link" />
+
             <Button
                 android:onClick="@{understoodClickListener}"
                 android:layout_width="wrap_content"
